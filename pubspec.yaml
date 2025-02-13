@@ -1,0 +1,26 @@
+name: sport_on
+description: A badminton sports platform app.
+
+publish_to: 'none' # Remove this line if you plan to publish your app
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.7+4 # Add this line for the image picker package
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/profile.jpg
